@@ -1,0 +1,8 @@
+CREATE TABLE category_product
+(
+    id          SERIAL PRIMARY KEY,
+    category_id BIGINT NOT NULL,
+    product_id  BIGINT NOT NULL,
+    created_at  TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at  TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);

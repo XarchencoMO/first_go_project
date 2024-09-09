@@ -1,0 +1,12 @@
+# Config file for Air
+[build]
+    cmd = "go build -o ./tmp/main ." # Команда сборки
+    bin = "./tmp/main"               # Путь к исполняемому файлу
+    full_bin = "APP_ENV=dev ./tmp/main" # Команда для запуска с переменными окружения
+    watch_dir = "."
+
+[log]
+    level = "debug"
+
+[formatter]
+    stdout = "terminal"
