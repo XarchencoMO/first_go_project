@@ -2,9 +2,6 @@
 pkg
 tmp
 
-# Go модули
-go.sum
-
 # Директории IDE
 .idea
 

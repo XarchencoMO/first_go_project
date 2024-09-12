@@ -24,4 +24,4 @@
 2. docker compose up -d --build
 3. docker compose exec -ti app sh
 4. Внутри контейнера: go run . --migrate
-5. Перейти на http//localhost:8081/products/
+5. Перейти на http://localhost:8081/products/
